@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Image from 'next/image'
+import imgcastelli from '../public/castelli.png'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -17,6 +19,9 @@ export default function Home() {
         <p className={styles.description}>
           A mais linda do mundo!
         </p>
+
+        <Image src={imgcastelli} width={200} height={200}></Image>
+
 
       </main>
 
